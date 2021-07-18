@@ -35,7 +35,6 @@ class ResultActivity : AppCompatActivity() {
         mAdView.loadAd(adRequest)
 
 
-
         val totalQuestions = intent.getIntExtra(Constants.TOTAL_QUESTIONS, 0)
         val correctAnswers = intent.getIntExtra(Constants.CORRECT_ANSWERS,0)
         binding.tvScore.text = "Your Score is $correctAnswers out of $totalQuestions"
@@ -49,8 +48,6 @@ class ResultActivity : AppCompatActivity() {
         binding.btnNextFact.setOnClickListener {
             setFact()
         }
-
-
     }
 
     fun setFact(){
