@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="U.S. Air Force Ranks"
+        android:text="U.S. Army Ranks"
         android:textColor="@color/white"
         android:textSize="46sp"
         android:textStyle="bold"
@@ -23,10 +23,10 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
-        android:layout_height="480dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        app:cardCornerRadius="22dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:cardCornerRadius="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
             android:gravity="center"
             android:text="Good luck"
             android:textColor="@color/black"
-            android:textSize="30sp"
+            android:textSize="28sp"
             android:textStyle="bold"
             />
 
