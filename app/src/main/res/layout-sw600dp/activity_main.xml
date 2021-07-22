@@ -11,10 +11,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="6dp"
-        android:text="U.S. Army Ranks"
-        android:textColor="#ffff"
-        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        android:text="U.S. Air Force Ranks"
+        android:textColor="@color/white"
+        android:textSize="46sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/card_view"
         app:layout_constraintEnd_toEndOf="@+id/card_view"
@@ -23,10 +23,10 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
-        android:layout_height="230dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        app:cardCornerRadius="10dp"
+        android:layout_height="480dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,11 +37,11 @@
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="11dp"
             android:gravity="center"
             android:text="Welcome"
-            android:textColor="#000"
-            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textSize="40sp"
             android:textStyle="bold" />
 
         <TextView
@@ -50,15 +50,15 @@
             android:layout_marginTop="50dp"
             android:gravity="center"
             android:text="Good luck"
-            android:textColor="#000"
-            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
             android:textStyle="bold"
             />
 
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
             android:src="@drawable/aaa" />
 
@@ -67,9 +67,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_margin="20dp"
+            android:padding="14dp"
+            android:layout_margin="26dp"
             android:text="Start"
-            android:textColor="#ffff"/>
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -78,9 +80,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="IG: kylan.hill"
-        android:textColor="#fff"
-        android:textStyle="bold"
-        android:textSize="20sp"
+        android:textSize="42sp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="Result"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="You finished lets see how you did"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvResult"
+        app:layout_constraintStart_toStartOf="@+id/tvResult"
+        app:layout_constraintTop_toBottomOf="@+id/tvResult" />
+
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Your Score 0 out of 10"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textSize="30sp"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:padding="14dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tvScore"
+        app:layout_constraintStart_toStartOf="@+id/tvScore"
+        app:layout_constraintTop_toBottomOf="@+id/tvScore" />
+
+
+    <TextView
+        android:id="@+id/tvFact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="23 Random facts / info. Some helpful some not"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnFinish"
+        app:layout_constraintStart_toStartOf="@+id/btnFinish"
+        app:layout_constraintTop_toBottomOf="@+id/btnFinish" />
+
+    <Button
+        android:id="@+id/btnNextFact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="30dp"
+        android:padding="14dp"
+        android:text="Next Fact"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="@+id/tvFact"
+        app:layout_constraintStart_toStartOf="@+id/tvFact" />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        app:adSize="BANNER"
+        app:adUnitId="/6499/example/banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
