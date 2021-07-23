@@ -58,10 +58,10 @@
 
 
         <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
             android:layout_gravity="center"
-            android:src="@drawable/holder" />
+            android:src="@drawable/aaa" />
 
         <Button
             android:id="@+id/btn_start"

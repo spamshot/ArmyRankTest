@@ -100,7 +100,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="8dp"
         app:adSize="BANNER"
-        app:adUnitId="/6499/example/banner"
+        app:adUnitId="ca-app-pub-6461309687092712/8809299593"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">

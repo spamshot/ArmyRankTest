@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="6dp"
         android:text="U.S. Army Ranks"
         android:textColor="@color/white"
         android:textSize="46sp"
@@ -51,16 +51,16 @@
             android:gravity="center"
             android:text="Good luck"
             android:textColor="@color/black"
-            android:textSize="28sp"
+            android:textSize="26sp"
             android:textStyle="bold"
             />
 
 
         <ImageView
-            android:layout_width="180dp"
-            android:layout_height="160dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:src="@drawable/holder" />
+            android:src="@drawable/aaa" />
 
         <Button
             android:id="@+id/btn_start"
