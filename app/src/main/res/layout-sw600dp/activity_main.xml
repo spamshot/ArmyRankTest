@@ -60,7 +60,7 @@
             android:layout_width="180dp"
             android:layout_height="160dp"
             android:layout_gravity="center"
-            android:src="@drawable/aaa" />
+            android:src="@drawable/holder" />
 
         <Button
             android:id="@+id/btn_start"

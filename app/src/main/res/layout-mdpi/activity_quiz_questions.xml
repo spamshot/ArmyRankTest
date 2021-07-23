@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizQuestionsActivity"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="What rank is this?"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuestion" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:max="28"
+        android:minHeight="10dp"
+        android:progress="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage" />
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="0/10"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar" />
+
+
+    <TextView
+        android:id="@+id/tvOptionOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:background="@drawable/default_option_border_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#7A8089"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvProgress"
+        tools:text="Apple" />
+
+    <TextView
+        android:id="@+id/tvOptionTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/default_option_border_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#7A8089"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvOptionOne"
+        app:layout_constraintStart_toStartOf="@+id/tvOptionOne"
+        app:layout_constraintTop_toBottomOf="@+id/tvOptionOne"
+        tools:text="Dog" />
+
+    <TextView
+        android:id="@+id/tvOptionThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/default_option_border_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#7A8089"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvOptionTwo"
+        app:layout_constraintStart_toStartOf="@+id/tvOptionTwo"
+        app:layout_constraintTop_toBottomOf="@+id/tvOptionTwo"
+        tools:text="Cat" />
+
+    <TextView
+        android:id="@+id/tvOptionFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:background="@drawable/default_option_border_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#7A8089"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tvOptionThree"
+        app:layout_constraintStart_toStartOf="@+id/tvOptionThree"
+        app:layout_constraintTop_toBottomOf="@+id/tvOptionThree"
+        tools:text="Snake" />
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:padding="10dp"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
