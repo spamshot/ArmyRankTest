@@ -68,7 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_margin="20dp"
-            android:textSize="20sp"
+            android:textSize="18sp"
+            android:padding="15dp"
             android:text="Start"
             android:textColor="#ffff"/>
 
