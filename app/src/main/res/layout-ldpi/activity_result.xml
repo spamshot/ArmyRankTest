@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="#ffff"/>
+        android:textColor="@color/white"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="You finished lets see how you did"
-        android:textColor="#ffff"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/tvResult"
         app:layout_constraintStart_toStartOf="@+id/tvResult"
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Your Score 0 out of 10"
-        android:textColor="#ffff"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="26 Random facts / info. Some helpful some not"
-        android:textColor="#ffff"
+        android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btnFinish"
         app:layout_constraintHorizontal_bias="0.482"

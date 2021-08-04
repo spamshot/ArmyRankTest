@@ -11,8 +11,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="6dp"
-        android:text="U.S. Army Ranks"
+        android:layout_marginBottom="4dp"
+        android:text="U.S. Air Force Ranks"
         android:textColor="@color/white"
         android:textSize="46sp"
         android:textStyle="bold"
@@ -23,55 +23,74 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
-        app:cardCornerRadius="32dp"
+        android:layout_height="440dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:cardCornerRadius="46dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <TextView
-            android:id="@+id/tv_title"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="11dp"
-            android:gravity="center"
-            android:text="Welcome"
-            android:textColor="@color/black"
-            android:textSize="40sp"
-            android:textStyle="bold" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:gravity="center"
-            android:text="Good luck"
-            android:textColor="@color/black"
-            android:textSize="26sp"
-            android:textStyle="bold"
-            />
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="Welcome"
+                android:textColor="@color/black"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView8" />
 
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:src="@drawable/aaa" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Good luck"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView7"
+                tools:layout_editor_absoluteX="16dp" />
 
-        <Button
-            android:id="@+id/btn_start"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:padding="14dp"
-            android:layout_margin="26dp"
-            android:text="Start"
-            android:textSize="30sp"
-            android:textColor="@color/white"/>
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/aaa"
+                app:layout_constraintBottom_toTopOf="@+id/btn_start"
+                app:layout_constraintEnd_toEndOf="@+id/btn_start"
+                app:layout_constraintStart_toStartOf="@+id/btn_start" />
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="18dp"
+                android:padding="14dp"
+                android:text="Start"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
