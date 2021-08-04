@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="6dp"
-        android:text="U.S. Air Force Ranks"
+        android:text="U.S. Army Ranks"
         android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold"
