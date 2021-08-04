@@ -344,9 +344,6 @@ object Constants {
         val fac15 = Fact(15,"Sign up as soon as you can for a Military Bank or Credit Union for best financial options.")
         factList.add(fac15)
 
-//        val fac16 = Fact(16,"Reveille is played at the start of the work day, Retreat is played at the close of work, and Taps is played to mark quiet hours. Times may vary depending on the base.")
-//        factList.add(fac16)
-
         val fac17 = Fact(16,"The three company level officer ranks are 2nd Lieutenant, 1st Lieutenant, and Captain.")
         factList.add(fac17)
 
