@@ -271,7 +271,7 @@ object Constants {
 
         val que27 = Question(
             27,"What rank is this?",R.drawable.o10general,
-            "Lieutenant GeneralGeneral",
+            "Lieutenant General",
             "Lieutenant Colonel",
             "Brigadier General",
             "General",
