@@ -12,8 +12,8 @@ object Constants {
         val que1 = Question(1,"What rank is this?",
             R.drawable.e2privatesecondclass,
             "Private First Class",
-            "Private",
-            "Private Second Class",
+            "Private E-1",
+            "Private E-2",
             "Specialist",
             3
         )
