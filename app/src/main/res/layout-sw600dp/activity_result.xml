@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="26 Random facts / info. Some helpful some not"
+        android:text="25 Random facts / info. Some helpful some not"
         android:textColor="@color/white"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="@+id/btnFinish"
